@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0D1A2D;
+}
+
+.attribution { 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%)
+}
+.attribution a {
+     color: white; 
+     text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #1DE6EF;
+}
+
+/* CONTAINER */
+.container {
+    margin: auto;
+    margin-top: 9vh;
+    width: 41vh;
+    height: 75vh;
+    background-color: #15273F;
+    border-radius: 10px;
+    padding: 3vh;
+}
+
+.image-wrapper {
+    height: 42vh;
+    margin: auto;
+    position: relative;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #1DE6EF;
+    border-radius: 10px;
+}
+
+.overlay img {
+    cursor: pointer;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    width: 18%;
+    height: 18%;
+}
+
+.image-wrapper:hover .overlay {
+    opacity: 0.5;
+}
+
+.text-wrapper h2 {
+    margin-top: 3vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.text-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-wrapper a:hover {
+    color: #1DE6EF;
+}
+
+.longest-text {
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6C80A5;
+    font-size: 0.8rem;
+    line-height: 4vh;
+}
+
+.eth {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clock-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eth-text {
+    color: #1DE6EF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.fab {
+    color: #1DE6EF;
+}
+
+.clock-text {
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin-top: 1.8vh;
+    border: 0.2px solid #6C80A5;
+
+}
+
+.clock-text, .far {
+    font-size: 0.8rem;
+    color: #6C80A5;
+}
+
+.bottom-wrapper {
+    margin-top: 1.8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom-wrapper p {
+    padding-left: 15px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-wrapper a:hover {
+    color: #1DE6EF;
+}
+
+.avatar {
+    width: 5vh;
+    border: 0.9px solid #ffff;
+    border-radius: 50%;
+}
+
+.creation {
+    color: #6C80A5;
+}
+.designer {
+    color: white;
+}
